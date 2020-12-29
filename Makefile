@@ -1,4 +1,5 @@
+start:
+	uvicorn texcloud.main:app
 
-__all:
+docker:
 	docker build -t texcloud .
-
